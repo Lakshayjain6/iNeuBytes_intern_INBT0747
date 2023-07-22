@@ -1,0 +1,6 @@
+Throughout the project, I remained cautious about copyright and legal implications. 
+I made sure to use legitimate sources for movie data and images to respect copyright laws.
+
+In conclusion, building the Netflix clone with HTML, CSS, and JavaScript was an incredible learning experience.
+Despite the difficulties I faced, I am proud of the final product and the skills I honed throughout the process.
+With the guidance of Ineubytes and my determination, I successfully completed the project and look forward to embarking on more challenging endeavors in the future.
