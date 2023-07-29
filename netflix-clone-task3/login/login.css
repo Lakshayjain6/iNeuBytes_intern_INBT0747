@@ -1,0 +1,133 @@
+
+body{
+    background-image: url(./loginbg.jpg);
+    height: auto;
+    width: auto;
+}
+.login-top{
+    width: 100px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 20px;
+    display: flex;
+  
+    
+}
+
+.login-top img{
+    width: 150px;
+}
+
+
+.login-box{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 430px;
+    height: 630px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 76rem;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    
+    
+}
+
+.footer a{
+    color: #737373;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer{
+    color: rgb(162, 159, 159);
+    
+}
+
+
+.button button {
+    width: 100%;
+    height: 45px;
+    background: red;
+    border: 2px solid red;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 0px 3px 10px red;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.button button:hover{
+    border: 2px solid #9d1414;
+    color: #fff;
+    background: #9d1414;
+    box-shadow: 0px 3px 10px #9d1414;
+}
+
+@media (min-width: 386px) {
+    .footer{
+        width: 1rem;
+        display: inline;
+        
+        
+    }
+    .login-top{
+        padding: 0rem;
+        background-color: rgba(0, 0, 0, 0.87);
+       
+        display: inline;
+        } 
+}
+@media (min-width: 810px){
+    .login-top{
+        width: 430px;
+        background-color: rgba(0, 0, 0, 0.87);
+        align-items: center;
+        margin-left: 12rem;
+        
+    }
+    .footer{
+        margin-left: 13rem;
+        display: flex;
+        gap: 3rem;
+        
+        
+    }
+   
+}
+@media (min-width: 1024px){
+    .login-top{
+       
+        margin-left: 1rem;
+        
+    }
+    .footer{
+        margin-left: 26rem;
+        display: flex;
+        gap: 3rem;
+        
+        
+    }
+   
+}
+@media (min-width: 1254px) {
+}
